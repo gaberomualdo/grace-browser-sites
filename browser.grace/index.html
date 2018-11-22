@@ -1,21 +1,172 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Under Construction</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="favicon.png">
-  <style>
-  body { text-align: center; padding: 150px; }
-  p { line-height: 1.5; }
-  h1 { font-size: 50px; margin: 25px 0;}
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  </style>
+  <title>Grace: The Browser of the Future</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 </head>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: #27f;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #23f;
+  text-decoration: underline;
+}
+pre {
+  white-space: pre-wrap;
+  line-height: 1.75;
+}
+nav, div.container, footer {
+  width: 100%;
+  display: block;
+  overflow: auto;
+  padding-left: calc((100% - 700px) / 2);
+  padding-right: calc((100% - 700px) / 2);
+  box-sizing: border-box;
+}
+nav {
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  border-bottom: 1px solid #ccc;
+  height: 75px;
+}
+nav img {
+  height: 100%;
+  width: auto;
+  box-sizing: border-box;
+  padding: 5px 0;
+}
+nav * {
+  display: block;
+  float: left;
+}
+nav h1, nav p {
+  font-size: 1.5rem;
+  line-height: 50px;
+  margin-left: 0.75rem;
+}
+nav p {
+  color: #888;
+  font-size: 1.375rem;
+  font-weight: lighter;
+  margin-left: 0.5rem;
+  line-height: 52.5px;
+}
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+footer p {
+  line-height: 2.5;
+  text-align: center;
+  font-size: 1rem;
+}
+div.container {
+  margin-top: 2.5rem;
+}
+div.container div.box_item {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 2.5rem;
+}
+a.download {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.25rem 1.75rem;
+  margin: 1.75rem 0;
+  background-color: #27f;
+  display: inline-block;
+  font-size: 1.125rem;
+}
+a.download:hover {
+  background-color: #25f;
+}
+
+@media (max-width: 750px) {
+  nav, footer {
+    padding: 12.5px;
+  }
+  div.container div.box_item {
+    padding: 1.5rem;
+  }
+  footer p {
+    line-height: 1.5;
+  }
+  footer p:nth-child(1) {
+    margin-bottom: 0.5rem;
+  }
+}
+</style>
+
 <body>
-  <article>
-    <h1>Under Construction</h1>
-    <div>
-      <p>Please check back after October 31st for updates. We are working hard to finish the site. Thanks!</p>
-      <p>&mdash; The Grace Team</p>
+  <nav>
+    <img src="favicon.png">
+    <h1>Grace</h1>
+    <p>The Browser of the Future</p>
+  </nav>
+  <div class="container">
+    <div class="box_item">
+<pre><span>Hi. I'm Gabriel, and I made a web browser. Called Grace.
+
+So last year, I started experimenting with building my own desktop app, and learned a lot. And a few weeks ago, I used what I learned to try and make my own web browser called Grace.
+
+I paused the project as I was working on other things... <a onclick="document.getElementById('contentMain').removeAttribute('style');this.parentElement.outerHTML = '';">(more)</a></span><span style="display: none;" id="contentMain">Hi. I'm Gabriel, and I made a web browser. Called Grace.
+
+So last year, I started experimenting with building my own desktop app, and learned a lot. And a few weeks ago, I used what I learned to try and make my own web browser called Grace.
+
+I paused the project as I was working on other things, but ummm... I found out a few days ago that the person that this browser is dedicated to is having their birthday soon (on the 22nd). So I decided to publish it on that day.
+
+But, I sort of had other stuff to do... so... I really, really, delayed it. Like seriously delayed it.
+
+Actually yesterday (it feels like today), which was the 21st, I was binge watching Riverdale the entire night... until my watched beeped at midnight and I noticed I had to publish the app the next day.
+
+So it's 1:52 AM right now (on the 22nd) and I'm still working on this download site and the app.
+
+I actually have to wake up by 7 today... so I'm probably not gonna get a lot of sleep... but who cares (except me, of course).
+
+But I've been typing really quickly though so I'll probably be done quickly; also I'm simultaneously attempting to watch Riverdale... which really isn't working.
+
+So anyway... back to the browser: the browser is just like any other browser atm, you can browse any website, open 20 tabs if you want, and even print pages. And you can still pretend that you're "hacking" with Cmd+Chift+C just like on Chrome.
+
+The browser also has compatibility with what I'm calling Grace Sites, which are essentially a set of websites with the ".grace" web extension, which can only be accessed using the Grace browser. Currently we only have browser.grace, but I'm working on adding more like news.grace, and even my own personal website, gabriel.grace.
+
+There's also some pretty cool auto-update software that I wrote myself in the browser, which is pretty cool; I was thinking of actually making the auto-update software open source and calling it "The Golden Grace Bridge" (ikr the name is SO cringe) but I decided not to.
+
+The browser is called Grace because of two people: Grace Hopper (basically the Einstein of CompSci), and the other Grace (who I'm just not going to refer to by full name because... yeah. no.).
+
+So the browser is in memory of Grace Hopper, and for the other Grace.</span>
+</pre></div>
+    <div class="box_item">
+<pre>
+Download it right here (.zip for Mac):
+</pre>
+      <a class="download" href="Grace.zip" download>Download (Mac)</a>
+<pre>
+After the download finishes, unzip it, then I suggest moving the app to your documents folder and then opening it and putting it on your dock.
+</pre>
     </div>
-  </article>
+  </div>
+  <footer>
+    <p>Made by Gabriel</p>
+    <p>In memory of Grace Hopper, and for the other Grace.</p>
+  </footer>
 </body>
+</html>
